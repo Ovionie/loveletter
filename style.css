@@ -28,7 +28,7 @@ body{
 }
 .envelope-wrapper > .envelope{
     position: relative;
-    width: 600px;
+    width: 300px;
     height: 300px;
 }
 .envelope-wrapper > .envelope::before{
@@ -36,8 +36,8 @@ body{
     position: absolute;
     z-index: 2;
     border-top: 150px solid var(--envelope-tab);
-    border-right: 300px solid transparent;
-    border-left: 300px solid transparent;
+    border-right: 150px solid transparent;
+    border-left: 150px solid transparent;
     top: 0;
     transform-origin: top;
     transition: all 0.5s ease-in-out 0.7s;
@@ -47,8 +47,8 @@ body{
     position: absolute;
     z-index: 2;
     border-top: 150px solid transparent;
-    border-left: 300px solid var(--envelop-cover);
-    border-right: 300px solid var(--envelop-cover);
+    border-left: 150px solid var(--envelop-cover);
+    border-right: 150px solid var(--envelop-cover);
     border-bottom: 150px solid var(--envelop-cover);
     bottom: 0;
     
