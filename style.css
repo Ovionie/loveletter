@@ -8,7 +8,6 @@
     --txt-color: #444;
     --heart-color: rgb(136,8,8);
 }
-@media all and (min-width:960px) and (max-width: 1024px) {
 body{
     margin: 0;
     padding: 0;
@@ -112,4 +111,4 @@ body{
     transform: rotate(90deg);
     transition-delay: 0.4;
 }
-}
+
